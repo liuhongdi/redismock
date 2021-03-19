@@ -1,0 +1,14 @@
+#redis1
+spring:
+  redis1:
+    enabled: 1
+    host: 127.0.0.1
+    port: 6379
+    password: lhddemo
+    database: 0
+    lettuce:
+      pool:
+        max-active: 32
+        max-wait: 300
+        max-idle: 16
+        min-idle: 8
